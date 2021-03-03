@@ -1,0 +1,9 @@
+CREATE QUERY SELECT_Person_Uses_Herb(VERTEX<Person> p) FOR GRAPH Herbs {
+  Start = {p};
+  Result = SELECT h
+           FROM Start:s-(Edge_Person_uses_herb_Herb:e)->Herb:h;
+  PRINT Result;
+}
+
+#https://docs.tigergraph.com/start/gsql-101/parameterized-gsql-query#a-simple-1-hop-query
+

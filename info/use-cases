@@ -1,0 +1,36 @@
+Single Hop Query
+
+Multi-Hop Query
+
+Community Detection
+
+Collaborative Filtering
+-----------------------
+Referemce: https://docs-beta.tigergraph.com/start/gsql-examples/common-applications#example-1-collaborative-filtering
+
+A technique of finding the top co-liked individuals/products/services.
+Example: A set of people like John. That same set also likes me. As such, it is probable that John and myself have some things in common.
+The same is true of products. If a set of people like product X, and also like Z, it is probable that X and Z have some things in common.
+We say that X and Z, or John and myself, are "co-liked".
+
+Use Cases:
+Friend Recommendations
+Product Recommendations
+
+Approach:
+1. Find the set of people Y who like person/product X
+2. Find other persons/products Z who are liked by someone in group Y
+3. Rank members of Z according to how many times they're liked by Y
+
+Example:
+John, Amy, Bob and Joe like Peet's Coffee
+John, Bob and Joe like Lillie's Chocolate
+John and Bob like The Tea Spot
+Amy and Joe like So Delicious Coconut Creamer
+Peet's Coffee, Lillies Chocolate, The Tea Spot and So Delicious Coconut Creamer are all "co-liked"
+Peet's Coffee is ranked first, since it is "co-liked" by FOUR of the members of the Set
+
+Page Rank
+
+
+

@@ -1,0 +1,15 @@
+data/edges-neo4j/|Herb_has_Action|csv|Y
+data/edges-neo4j/|Herb_has_affinity_for_Organ|csv|Y
+data/edges-neo4j/|Herb_has_affinity_for_OrganSystem|csv|Y
+data/edges-neo4j/|Herb_has_Constituent|csv|Y
+data/edges-neo4j/|Herb_has_EnergeticQuality|csv|Y
+data/edges-neo4j/|Herb_has_MedicinalPart|csv|Y
+data/edges-neo4j/|Herb_is_friend_of_Herb|csv|Y
+data/edges-neo4j/|Herb_is_in_Recipe|csv|Y
+data/edges-neo4j/|Herb_is_indicated_for_Disease|csv|Y
+data/edges-neo4j/|Herb_is_of_Family|csv|Y
+data/edges-neo4j/|Organ_is_part_of_OrganSystem|csv|Y
+data/edges-neo4j/|Person_has_Profession|csv|Y
+data/edges-neo4j/|Person_is_friend_of_Person|csv|Y
+data/edges-neo4j/|Person_uses_Herb|csv|Y
+data/edges-neo4j/|Person_was_born_in_Year|csv|Y

@@ -1,0 +1,6 @@
+CREATE QUERY SIMILARITY_Search_People_Using_Common_Herbs(VERTEX<Herb> h) FOR GRAPH Herbs {
+  Start = {h};
+  Result = SELECT p
+           FROM Start:s-(Edge_Person_uses_herb_Herb:e)->Person:p;
+  PRINT Result;
+}

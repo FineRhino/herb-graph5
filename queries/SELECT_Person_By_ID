@@ -1,0 +1,6 @@
+CREATE QUERY SELECT_Person_By_ID(VERTEX<Person> p) FOR GRAPH Herbs {
+  Start={p};
+  Result = SELECT src
+      FROM   Start:src;
+  PRINT  Result;
+}

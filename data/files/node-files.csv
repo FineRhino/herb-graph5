@@ -1,0 +1,13 @@
+data/nodes-neo4j/|Action|csv|Y
+data/nodes-neo4j/|Constituent|csv|Y
+data/nodes-neo4j/|Disease|csv|Y
+data/nodes-neo4j/|EnergeticQuality|csv|Y
+data/nodes-neo4j/|Family|csv|Y
+data/nodes-neo4j/|Herb|csv|Y
+data/nodes-neo4j/|MedicinalPart|csv|Y
+data/nodes-neo4j/|Organ|csv|Y
+data/nodes-neo4j/|OrganSystem|csv|Y
+data/nodes-neo4j/|Person|csv|Y
+data/nodes-neo4j/|Profession|csv|Y
+data/nodes-neo4j/|Taste|csv|Y
+data/nodes-neo4j/|Year|csv|Y

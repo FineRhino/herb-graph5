@@ -1,0 +1,7 @@
+CREATE QUERY SELECT_Person_By_Name(STRING p) FOR GRAPH Herbs {
+  Start={Person.*};
+  Result = SELECT src
+      FROM     Start:src
+      WHERE    src.name == p;
+  PRINT  Result;
+}

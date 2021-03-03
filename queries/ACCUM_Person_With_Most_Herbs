@@ -1,0 +1,12 @@
+CREATE QUERY ACCUM_Person_With_Most_Herbs() FOR GRAPH Herbs { 
+  /* Write query logic here */ 
+  SumAccum<INT> @herbNum;
+  Seed = {Herb.*};
+  Persons = SELECT t 
+    FROM Seed:s-(Edge_Person_uses_herb_Herb)-:t
+    ACCUM t.@herbNum +=1
+    ORDER BY t.@herbNum DESC
+    LIMIT 2;
+  
+    PRINT Persons[Persons.firstName, Persons.@herbNum] AS Person_With_Most_Herbs;
+}
