@@ -13,5 +13,6 @@ data/nodes-neo4j/|OrganSystem|csv|Y
 data/nodes-neo4j/|Person|csv|Y
 data/nodes-neo4j/|Profession|csv|Y
 data/nodes-neo4j/|Recipe|csv|Y
+data/nodes-neo4j/|Reference|csv|Y
 data/nodes-neo4j/|Taste|csv|Y
 data/nodes-neo4j/|Year|csv|Y
